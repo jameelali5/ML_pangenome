@@ -1,0 +1,37 @@
+# %%
+# Data Wrangling Imports
+import pandas as pd
+import numpy as np
+from functools import reduce
+
+# %%
+# assign to url variable for each csv file 
+
+metadata_path = '/Users/jameelali/Desktop/Machine_Learning_Project/Ecoli_Project/Data/PA_metadata_final.csv'
+gene_presence_path = '/Users/jameelali/Desktop/Machine_Learning_Project/Ecoli_Project/Data/PA_gpa_final.csv'
+pop_struc_path = '/Users/jameelali/Desktop/Machine_Learning_Project/Ecoli_Project/Data/PA_ps_final.csv'
+runinfo_path = '/Users/jameelali/Desktop/Machine_Learning_Project/Khaledi Data/metadata/runinfo.csv'
+
+# load csv files into the notebook
+metadata = pd.read_csv(metadata_path)
+gene_presence_data = pd.read_csv(gene_presence_path)
+pop_struc_data = pd.read_csv(pop_struc_path)
+runinfo_data = pd.read_csv(runinfo_path)
+
+# %%
+metadata
+
+# %%
+gene_presence_data
+
+# %%
+test = pd.merge(metadata,gene_presence_data)
+
+# %%
+test
+
+# %%
+df = pd.merge(metadata, gene_presence_data, how='outer', suffixes=('','_y'), indicator=True)
+rows_in_df1_not_in_df2 = df[df['_merge']=='left_only'][metadata.columns]
+
+rows_in_df1_not_in_df2
