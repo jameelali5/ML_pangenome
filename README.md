@@ -1,5 +1,5 @@
-# ML_pangenome
-"Using WGS to Predict Antibiotic Resistance with Machine Learning in _E. coli_ versus _P. aeruginosa_ "
+
+# "Using WGS to Predict Antibiotic Resistance with Machine Learning in _E. coli_ versus _P. aeruginosa_ "
 
 
 This is the repository for the my thesis project for San Francisco State Univeristy M.S. Program. 
