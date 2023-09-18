@@ -7,14 +7,14 @@ This is the repository for the my thesis project for San Francisco State Univeri
 Two publically available datasets were used in the completion of this study:
 
 1) _E. coli_
-repository: https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=5&WebEnv=MCID_6507949b8377b8732304c7f3&o=acc_s%3Aa
+repository: [https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=5&WebEnv=MCID_6507949b8377b8732304c7f3&o=acc_s%3Aa](https://github.com/DaneshMoradigaravand/PanPred)
 
 (Moradigaravand, Danesh, Martin Palm, Anne Farewell, Ville Mustonen, Jonas Warringer, and Leopold Parts. 2018. “Prediction of Antibiotic Resistance in Escherichia Coli from Large-Scale Pan-Genome Data.” Edited by Aaron E. Darling. PLOS Computational Biology 14 (12): e1006258. https://doi.org/10.1371/journal.pcbi.1006258.)
 
 
 
 2) _P. aeruginosa_
-repository: https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=3&WebEnv=MCID_6507949b8377b8732304c7f3&o=acc_s%3Aa
+repository: [https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=3&WebEnv=MCID_6507949b8377b8732304c7f3&o=acc_s%3Aa](https://github.com/hzi-bifo/Predicting_PA_AMR_paper)
 
 (Khaledi, Ariane, Aaron Weimann, Monika Schniederjans, Ehsaneddin Asgari, Tzu‐Hao Kuo, Antonio Oliver, Gabriel Cabot, et al. 2020. “Predicting Antimicrobial Resistance in Pseudomonas Aeruginosa with Machine Learning‐enabled Molecular Diagnostics.” EMBO Molecular Medicine 12 (3). https://doi.org/10.15252/emmm.201910264.)
 
